@@ -29,8 +29,9 @@
     .flag {
         display: none;
     }
-    .counter{
-    height: 40px;
+    
+    .counter {
+        height: 40px;
     }
     
     h1,
@@ -59,6 +60,7 @@
     
     .validator {
         margin-left: 50px;
+        color: chartreuse;
     }
     
     #autofocus {
@@ -84,21 +86,23 @@
         font-size: 16px;
         font-style: italic;
     }
-p>button{
-    height: 40px;
-    width: 200px;
-    border-radius: 10px;
-    font-size: 16px;
-        
-}
-input[type="checkbox"]{
-    margin:30px 10px
-}
-i {
-    margin-top: 30px;
-    color: azure;
-}
-
-.fa-github:hover {
-    color: red;
-}
+    
+    p>button {
+        height: 40px;
+        width: 200px;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+    
+    input[type="checkbox"] {
+        margin: 30px 10px
+    }
+    
+    i {
+        margin-top: 30px;
+        color: azure;
+    }
+    
+    .fa-github:hover {
+        color: red;
+    }
