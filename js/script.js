@@ -88,12 +88,9 @@ function moveRect(e){
         if(result == 40) focusStepDown(); 
         if(result == 38) focusStepUp(); 
         if(result == 13) validation();
-    
         $("#form_" + count).focus(function() {
             autofocus = count;
-           document.getElementById('autofocus').innerHTML = autofocus;
-           //document.getElementById('type_autofocus').innerHTML = typeof(autofocus);
-            
+            document.getElementById('autofocus').innerHTML = autofocus;
         }); 
         $("#form_" + count).focus(); 
     });
