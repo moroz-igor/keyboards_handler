@@ -1,7 +1,7 @@
    function dropping_focus() {
         for(var i = 1; i <=9  ; i++){
-            document.getElementById('flag_' + i).innerHTML = 0;
-            document.getElementById('flag_up_' + i).innerHTML = 0;
+            document.getElementById('flag_' + i).innerHTML = '0';
+            document.getElementById('flag_up_' + i).innerHTML = '0';
         }
     };
    $(function() {
@@ -92,7 +92,7 @@ function moveRect(e){
         $("#form_" + count).focus(function() {
             autofocus = count;
            document.getElementById('autofocus').innerHTML = autofocus;
-           document.getElementById('type_autofocus').innerHTML = typeof(autofocus);
+           //document.getElementById('type_autofocus').innerHTML = typeof(autofocus);
             
         }); 
         $("#form_" + count).focus(); 
